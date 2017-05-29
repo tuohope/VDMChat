@@ -1,0 +1,9 @@
+
+*.xcscheme
+
+# Cocoapods
+Pods/
+
+*.lock
+
+*.xcscheme

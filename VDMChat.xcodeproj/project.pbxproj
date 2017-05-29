@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D8368E419674AB6CAC0A925 /* Pods_VDMChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E4EBC0C890A98DD449A35E /* Pods_VDMChatTests.framework */; };
+		CE91E8A7C3024E7FA9C12426 /* Pods_VDMChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88ACEE220123A3A6A4B8864 /* Pods_VDMChatUITests.framework */; };
+		EA2448B51ECB785F004F1568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2448B41ECB785F004F1568 /* AppDelegate.swift */; };
+		EA2448BA1ECB785F004F1568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2448B81ECB785F004F1568 /* Main.storyboard */; };
+		EA2448BD1ECB785F004F1568 /* VDMChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA2448BB1ECB785F004F1568 /* VDMChat.xcdatamodeld */; };
+		EA2448BF1ECB785F004F1568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2448BE1ECB785F004F1568 /* Assets.xcassets */; };
+		EA2448C21ECB785F004F1568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2448C01ECB785F004F1568 /* LaunchScreen.storyboard */; };
+		EA2448CD1ECB785F004F1568 /* VDMChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2448CC1ECB785F004F1568 /* VDMChatTests.swift */; };
+		EA2448D81ECB785F004F1568 /* VDMChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2448D71ECB785F004F1568 /* VDMChatUITests.swift */; };
+		F8FD326C40117B4C8D862952 /* Pods_VDMChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88740ACBDC84E21AE4746264 /* Pods_VDMChat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA2448C91ECB785F004F1568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA2448A91ECB785F004F1568 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA2448B01ECB785F004F1568;
+			remoteInfo = VDMChat;
+		};
+		EA2448D41ECB785F004F1568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA2448A91ECB785F004F1568 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA2448B01ECB785F004F1568;
+			remoteInfo = VDMChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A82E96368C8D48C419BA24B /* Pods-VDMChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDMChat/Pods-VDMChat.debug.xcconfig"; sourceTree = "<group>"; };
+		57FB26873C4A0A4B922003A4 /* Pods-VDMChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDMChatUITests/Pods-VDMChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84C96325C8F80C9067B60EC8 /* Pods-VDMChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VDMChatTests/Pods-VDMChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		88740ACBDC84E21AE4746264 /* Pods_VDMChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VDMChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E4EBC0C890A98DD449A35E /* Pods_VDMChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VDMChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B563D08FB9497133D9A2CB /* Pods-VDMChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDMChatTests/Pods-VDMChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B149F1068597BFFCF7F41CEF /* Pods-VDMChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-VDMChat/Pods-VDMChat.release.xcconfig"; sourceTree = "<group>"; };
+		CB891AA96CE466D6761C7F57 /* Pods-VDMChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VDMChatUITests/Pods-VDMChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D88ACEE220123A3A6A4B8864 /* Pods_VDMChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VDMChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2448B11ECB785F004F1568 /* VDMChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDMChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2448B41ECB785F004F1568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA2448B91ECB785F004F1568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA2448BC1ECB785F004F1568 /* VDMChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VDMChat.xcdatamodel; sourceTree = "<group>"; };
+		EA2448BE1ECB785F004F1568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA2448C11ECB785F004F1568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA2448C31ECB785F004F1568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2448C81ECB785F004F1568 /* VDMChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VDMChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2448CC1ECB785F004F1568 /* VDMChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDMChatTests.swift; sourceTree = "<group>"; };
+		EA2448CE1ECB785F004F1568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2448D31ECB785F004F1568 /* VDMChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VDMChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2448D71ECB785F004F1568 /* VDMChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDMChatUITests.swift; sourceTree = "<group>"; };
+		EA2448D91ECB785F004F1568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA2448AE1ECB785F004F1568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FD326C40117B4C8D862952 /* Pods_VDMChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2448C51ECB785F004F1568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8368E419674AB6CAC0A925 /* Pods_VDMChatTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2448D01ECB785F004F1568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE91E8A7C3024E7FA9C12426 /* Pods_VDMChatUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0D4E984630116A3895B7239 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A82E96368C8D48C419BA24B /* Pods-VDMChat.debug.xcconfig */,
+				B149F1068597BFFCF7F41CEF /* Pods-VDMChat.release.xcconfig */,
+				B0B563D08FB9497133D9A2CB /* Pods-VDMChatTests.debug.xcconfig */,
+				84C96325C8F80C9067B60EC8 /* Pods-VDMChatTests.release.xcconfig */,
+				57FB26873C4A0A4B922003A4 /* Pods-VDMChatUITests.debug.xcconfig */,
+				CB891AA96CE466D6761C7F57 /* Pods-VDMChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA2448A81ECB785F004F1568 = {
+			isa = PBXGroup;
+			children = (
+				EA2448B31ECB785F004F1568 /* VDMChat */,
+				EA2448CB1ECB785F004F1568 /* VDMChatTests */,
+				EA2448D61ECB785F004F1568 /* VDMChatUITests */,
+				EA2448B21ECB785F004F1568 /* Products */,
+				A0D4E984630116A3895B7239 /* Pods */,
+				F557960E044399697503C600 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA2448B21ECB785F004F1568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA2448B11ECB785F004F1568 /* VDMChat.app */,
+				EA2448C81ECB785F004F1568 /* VDMChatTests.xctest */,
+				EA2448D31ECB785F004F1568 /* VDMChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA2448B31ECB785F004F1568 /* VDMChat */ = {
+			isa = PBXGroup;
+			children = (
+				EA2448B41ECB785F004F1568 /* AppDelegate.swift */,
+				EA2448B81ECB785F004F1568 /* Main.storyboard */,
+				EA2448BE1ECB785F004F1568 /* Assets.xcassets */,
+				EA2448C01ECB785F004F1568 /* LaunchScreen.storyboard */,
+				EA2448C31ECB785F004F1568 /* Info.plist */,
+				EA2448BB1ECB785F004F1568 /* VDMChat.xcdatamodeld */,
+			);
+			path = VDMChat;
+			sourceTree = "<group>";
+		};
+		EA2448CB1ECB785F004F1568 /* VDMChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA2448CC1ECB785F004F1568 /* VDMChatTests.swift */,
+				EA2448CE1ECB785F004F1568 /* Info.plist */,
+			);
+			path = VDMChatTests;
+			sourceTree = "<group>";
+		};
+		EA2448D61ECB785F004F1568 /* VDMChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA2448D71ECB785F004F1568 /* VDMChatUITests.swift */,
+				EA2448D91ECB785F004F1568 /* Info.plist */,
+			);
+			path = VDMChatUITests;
+			sourceTree = "<group>";
+		};
+		F557960E044399697503C600 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88740ACBDC84E21AE4746264 /* Pods_VDMChat.framework */,
+				95E4EBC0C890A98DD449A35E /* Pods_VDMChatTests.framework */,
+				D88ACEE220123A3A6A4B8864 /* Pods_VDMChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA2448B01ECB785F004F1568 /* VDMChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2448DC1ECB785F004F1568 /* Build configuration list for PBXNativeTarget "VDMChat" */;
+			buildPhases = (
+				D9E70F2CF90FBF48165F6D32 /* [CP] Check Pods Manifest.lock */,
+				EA2448AD1ECB785F004F1568 /* Sources */,
+				EA2448AE1ECB785F004F1568 /* Frameworks */,
+				EA2448AF1ECB785F004F1568 /* Resources */,
+				B13B4FC5CA5A18692670F45E /* [CP] Embed Pods Frameworks */,
+				0A517146AFE07E20B8BABFB2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VDMChat;
+			productName = VDMChat;
+			productReference = EA2448B11ECB785F004F1568 /* VDMChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA2448C71ECB785F004F1568 /* VDMChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2448DF1ECB785F004F1568 /* Build configuration list for PBXNativeTarget "VDMChatTests" */;
+			buildPhases = (
+				63E6E43336115CB7D0491DA5 /* [CP] Check Pods Manifest.lock */,
+				EA2448C41ECB785F004F1568 /* Sources */,
+				EA2448C51ECB785F004F1568 /* Frameworks */,
+				EA2448C61ECB785F004F1568 /* Resources */,
+				FDD8F9760EAD2D3D887F77B2 /* [CP] Embed Pods Frameworks */,
+				CD0578CC5CC872D9ADA5FD84 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA2448CA1ECB785F004F1568 /* PBXTargetDependency */,
+			);
+			name = VDMChatTests;
+			productName = VDMChatTests;
+			productReference = EA2448C81ECB785F004F1568 /* VDMChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA2448D21ECB785F004F1568 /* VDMChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2448E21ECB785F004F1568 /* Build configuration list for PBXNativeTarget "VDMChatUITests" */;
+			buildPhases = (
+				A394EC9145BCF47AC2E53EB1 /* [CP] Check Pods Manifest.lock */,
+				EA2448CF1ECB785F004F1568 /* Sources */,
+				EA2448D01ECB785F004F1568 /* Frameworks */,
+				EA2448D11ECB785F004F1568 /* Resources */,
+				6BC6AE14DC0EAEE6A76267F0 /* [CP] Embed Pods Frameworks */,
+				34F7DB878F2D47CB914E330E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA2448D51ECB785F004F1568 /* PBXTargetDependency */,
+			);
+			name = VDMChatUITests;
+			productName = VDMChatUITests;
+			productReference = EA2448D31ECB785F004F1568 /* VDMChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA2448A91ECB785F004F1568 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Tony;
+				TargetAttributes = {
+					EA2448B01ECB785F004F1568 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					EA2448C71ECB785F004F1568 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA2448B01ECB785F004F1568;
+					};
+					EA2448D21ECB785F004F1568 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA2448B01ECB785F004F1568;
+					};
+				};
+			};
+			buildConfigurationList = EA2448AC1ECB785F004F1568 /* Build configuration list for PBXProject "VDMChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA2448A81ECB785F004F1568;
+			productRefGroup = EA2448B21ECB785F004F1568 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA2448B01ECB785F004F1568 /* VDMChat */,
+				EA2448C71ECB785F004F1568 /* VDMChatTests */,
+				EA2448D21ECB785F004F1568 /* VDMChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA2448AF1ECB785F004F1568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2448C21ECB785F004F1568 /* LaunchScreen.storyboard in Resources */,
+				EA2448BF1ECB785F004F1568 /* Assets.xcassets in Resources */,
+				EA2448BA1ECB785F004F1568 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2448C61ECB785F004F1568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2448D11ECB785F004F1568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A517146AFE07E20B8BABFB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDMChat/Pods-VDMChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34F7DB878F2D47CB914E330E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDMChatUITests/Pods-VDMChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63E6E43336115CB7D0491DA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BC6AE14DC0EAEE6A76267F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDMChatUITests/Pods-VDMChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A394EC9145BCF47AC2E53EB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B13B4FC5CA5A18692670F45E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDMChat/Pods-VDMChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD0578CC5CC872D9ADA5FD84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDMChatTests/Pods-VDMChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E70F2CF90FBF48165F6D32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDD8F9760EAD2D3D887F77B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDMChatTests/Pods-VDMChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA2448AD1ECB785F004F1568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2448BD1ECB785F004F1568 /* VDMChat.xcdatamodeld in Sources */,
+				EA2448B51ECB785F004F1568 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2448C41ECB785F004F1568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2448CD1ECB785F004F1568 /* VDMChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2448CF1ECB785F004F1568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2448D81ECB785F004F1568 /* VDMChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA2448CA1ECB785F004F1568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA2448B01ECB785F004F1568 /* VDMChat */;
+			targetProxy = EA2448C91ECB785F004F1568 /* PBXContainerItemProxy */;
+		};
+		EA2448D51ECB785F004F1568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA2448B01ECB785F004F1568 /* VDMChat */;
+			targetProxy = EA2448D41ECB785F004F1568 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA2448B81ECB785F004F1568 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2448B91ECB785F004F1568 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA2448C01ECB785F004F1568 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2448C11ECB785F004F1568 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA2448DA1ECB785F004F1568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA2448DB1ECB785F004F1568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA2448DD1ECB785F004F1568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A82E96368C8D48C419BA24B /* Pods-VDMChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = VDMChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidao.interview.chat.VDMChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA2448DE1ECB785F004F1568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B149F1068597BFFCF7F41CEF /* Pods-VDMChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = VDMChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidao.interview.chat.VDMChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EA2448E01ECB785F004F1568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B563D08FB9497133D9A2CB /* Pods-VDMChatTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VDMChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidao.interview.chat.VDMChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VDMChat.app/VDMChat";
+			};
+			name = Debug;
+		};
+		EA2448E11ECB785F004F1568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C96325C8F80C9067B60EC8 /* Pods-VDMChatTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VDMChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidao.interview.chat.VDMChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VDMChat.app/VDMChat";
+			};
+			name = Release;
+		};
+		EA2448E31ECB785F004F1568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57FB26873C4A0A4B922003A4 /* Pods-VDMChatUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VDMChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidao.interview.chat.VDMChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VDMChat;
+			};
+			name = Debug;
+		};
+		EA2448E41ECB785F004F1568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB891AA96CE466D6761C7F57 /* Pods-VDMChatUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VDMChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidao.interview.chat.VDMChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VDMChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA2448AC1ECB785F004F1568 /* Build configuration list for PBXProject "VDMChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2448DA1ECB785F004F1568 /* Debug */,
+				EA2448DB1ECB785F004F1568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2448DC1ECB785F004F1568 /* Build configuration list for PBXNativeTarget "VDMChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2448DD1ECB785F004F1568 /* Debug */,
+				EA2448DE1ECB785F004F1568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2448DF1ECB785F004F1568 /* Build configuration list for PBXNativeTarget "VDMChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2448E01ECB785F004F1568 /* Debug */,
+				EA2448E11ECB785F004F1568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2448E21ECB785F004F1568 /* Build configuration list for PBXNativeTarget "VDMChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2448E31ECB785F004F1568 /* Debug */,
+				EA2448E41ECB785F004F1568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA2448BB1ECB785F004F1568 /* VDMChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA2448BC1ECB785F004F1568 /* VDMChat.xcdatamodel */,
+			);
+			currentVersion = EA2448BC1ECB785F004F1568 /* VDMChat.xcdatamodel */;
+			path = VDMChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA2448A91ECB785F004F1568 /* Project object */;
+}
