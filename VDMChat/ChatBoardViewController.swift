@@ -83,12 +83,7 @@ class ChatBoardViewController: UIViewController, UITableViewDelegate, UITableVie
 
         let msgRef = rootRef.childByAutoId()
         
-        
-//        msgRef.child("message").setValue(msg);
-//        msgRef.child("time").setValue(Int(Date().timeIntervalSince1970))
-        
         guard let nickname = AppManager.sharedInstance.nickname, !nickname.isEmpty else {
-//            msgRef.child("nickname").setValue("Anonymous")
             let value = ["message":msg,"time":Date().timeIntervalSince1970,"nickname":"Anonymous"] as Any;
             msgRef.setValue(value);
             return;
@@ -96,7 +91,6 @@ class ChatBoardViewController: UIViewController, UITableViewDelegate, UITableVie
         
         let value = ["message":msg,"time":Date().timeIntervalSince1970,"nickname":nickname] as Any;
         msgRef.setValue(value);
-//        msgRef.child("nickname").setValue(nickname)
     }
     
 
