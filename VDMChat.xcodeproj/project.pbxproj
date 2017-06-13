@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3D8368E419674AB6CAC0A925 /* Pods_VDMChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E4EBC0C890A98DD449A35E /* Pods_VDMChatTests.framework */; };
+		71018FBBBA7057495E749107 /* Pods_VDMChat_VDMChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826C938BA7E0BF247E86FB7D /* Pods_VDMChat_VDMChatTests.framework */; };
+		8ABBAA3D1A0B1186FC82ED27 /* Pods_VDMChat_VDMChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7650FC5B55026C609F83AB5E /* Pods_VDMChat_VDMChatUITests.framework */; };
 		A9B698261EEFC84500CF9053 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B698221EEFC84500CF9053 /* AppManager.swift */; };
 		A9B698271EEFC84500CF9053 /* ChatBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B698231EEFC84500CF9053 /* ChatBoardViewController.swift */; };
 		A9B698281EEFC84500CF9053 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B698241EEFC84500CF9053 /* ChatMessage.swift */; };
@@ -42,8 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01C108E2D5FF7DB2AB35B2BB /* Pods-VDMChat-VDMChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMChat-VDMChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VDMChat-VDMChatUITests/Pods-VDMChat-VDMChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		398B007DCEE540C34DF8DC9A /* Pods-VDMChat-VDMChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMChat-VDMChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VDMChat-VDMChatTests/Pods-VDMChat-VDMChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		3A82E96368C8D48C419BA24B /* Pods-VDMChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDMChat/Pods-VDMChat.debug.xcconfig"; sourceTree = "<group>"; };
 		57FB26873C4A0A4B922003A4 /* Pods-VDMChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDMChatUITests/Pods-VDMChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7650FC5B55026C609F83AB5E /* Pods_VDMChat_VDMChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VDMChat_VDMChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F537173F2D063E41BC529CE /* Pods-VDMChat-VDMChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMChat-VDMChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDMChat-VDMChatTests/Pods-VDMChat-VDMChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		826C938BA7E0BF247E86FB7D /* Pods_VDMChat_VDMChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VDMChat_VDMChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C96325C8F80C9067B60EC8 /* Pods-VDMChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VDMChatTests/Pods-VDMChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		88740ACBDC84E21AE4746264 /* Pods_VDMChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VDMChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E4EBC0C890A98DD449A35E /* Pods_VDMChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VDMChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +63,7 @@
 		B149F1068597BFFCF7F41CEF /* Pods-VDMChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-VDMChat/Pods-VDMChat.release.xcconfig"; sourceTree = "<group>"; };
 		CB891AA96CE466D6761C7F57 /* Pods-VDMChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VDMChatUITests/Pods-VDMChatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D88ACEE220123A3A6A4B8864 /* Pods_VDMChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VDMChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD95D371D4E13AB842C0FCDE /* Pods-VDMChat-VDMChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDMChat-VDMChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDMChat-VDMChatUITests/Pods-VDMChat-VDMChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA2448B11ECB785F004F1568 /* VDMChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDMChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2448B41ECB785F004F1568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA2448B91ECB785F004F1568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,6 +93,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D8368E419674AB6CAC0A925 /* Pods_VDMChatTests.framework in Frameworks */,
+				71018FBBBA7057495E749107 /* Pods_VDMChat_VDMChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +102,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE91E8A7C3024E7FA9C12426 /* Pods_VDMChatUITests.framework in Frameworks */,
+				8ABBAA3D1A0B1186FC82ED27 /* Pods_VDMChat_VDMChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +118,10 @@
 				84C96325C8F80C9067B60EC8 /* Pods-VDMChatTests.release.xcconfig */,
 				57FB26873C4A0A4B922003A4 /* Pods-VDMChatUITests.debug.xcconfig */,
 				CB891AA96CE466D6761C7F57 /* Pods-VDMChatUITests.release.xcconfig */,
+				7F537173F2D063E41BC529CE /* Pods-VDMChat-VDMChatTests.debug.xcconfig */,
+				398B007DCEE540C34DF8DC9A /* Pods-VDMChat-VDMChatTests.release.xcconfig */,
+				DD95D371D4E13AB842C0FCDE /* Pods-VDMChat-VDMChatUITests.debug.xcconfig */,
+				01C108E2D5FF7DB2AB35B2BB /* Pods-VDMChat-VDMChatUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -137,11 +151,11 @@
 		EA2448B31ECB785F004F1568 /* VDMChat */ = {
 			isa = PBXGroup;
 			children = (
-				EA2448B41ECB785F004F1568 /* AppDelegate.swift */,
 				A9B698221EEFC84500CF9053 /* AppManager.swift */,
 				A9B698231EEFC84500CF9053 /* ChatBoardViewController.swift */,
 				A9B698251EEFC84500CF9053 /* NicknameViewController.swift */,
 				A9B698241EEFC84500CF9053 /* ChatMessage.swift */,
+				EA2448B41ECB785F004F1568 /* AppDelegate.swift */,
 				EA2448BE1ECB785F004F1568 /* Assets.xcassets */,
 				EA2448B81ECB785F004F1568 /* Main.storyboard */,
 				EA2448C01ECB785F004F1568 /* LaunchScreen.storyboard */,
@@ -176,6 +190,8 @@
 				88740ACBDC84E21AE4746264 /* Pods_VDMChat.framework */,
 				95E4EBC0C890A98DD449A35E /* Pods_VDMChatTests.framework */,
 				D88ACEE220123A3A6A4B8864 /* Pods_VDMChatUITests.framework */,
+				826C938BA7E0BF247E86FB7D /* Pods_VDMChat_VDMChatTests.framework */,
+				7650FC5B55026C609F83AB5E /* Pods_VDMChat_VDMChatUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -348,7 +364,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDMChatUITests/Pods-VDMChatUITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDMChat-VDMChatUITests/Pods-VDMChat-VDMChatUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		63E6E43336115CB7D0491DA5 /* [CP] Check Pods Manifest.lock */ = {
@@ -378,7 +394,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDMChatUITests/Pods-VDMChatUITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDMChat-VDMChatUITests/Pods-VDMChat-VDMChatUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A394EC9145BCF47AC2E53EB1 /* [CP] Check Pods Manifest.lock */ = {
@@ -423,7 +439,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDMChatTests/Pods-VDMChatTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDMChat-VDMChatTests/Pods-VDMChat-VDMChatTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D9E70F2CF90FBF48165F6D32 /* [CP] Check Pods Manifest.lock */ = {
@@ -453,7 +469,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDMChatTests/Pods-VDMChatTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDMChat-VDMChatTests/Pods-VDMChat-VDMChatTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -564,6 +580,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "${PODS_ROOT}/Firebase/Analytics/Sources";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -648,10 +665,20 @@
 		};
 		EA2448E01ECB785F004F1568 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0B563D08FB9497133D9A2CB /* Pods-VDMChatTests.debug.xcconfig */;
+			baseConfigurationReference = 7F537173F2D063E41BC529CE /* Pods-VDMChat-VDMChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseDatabase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Firebase/Analytics/Sources\"",
+				);
 				INFOPLIST_FILE = VDMChatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vidao.interview.chat.VDMChatTests;
@@ -663,7 +690,7 @@
 		};
 		EA2448E11ECB785F004F1568 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84C96325C8F80C9067B60EC8 /* Pods-VDMChatTests.release.xcconfig */;
+			baseConfigurationReference = 398B007DCEE540C34DF8DC9A /* Pods-VDMChat-VDMChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -678,7 +705,7 @@
 		};
 		EA2448E31ECB785F004F1568 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57FB26873C4A0A4B922003A4 /* Pods-VDMChatUITests.debug.xcconfig */;
+			baseConfigurationReference = DD95D371D4E13AB842C0FCDE /* Pods-VDMChat-VDMChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = VDMChatUITests/Info.plist;
@@ -692,7 +719,7 @@
 		};
 		EA2448E41ECB785F004F1568 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB891AA96CE466D6761C7F57 /* Pods-VDMChatUITests.release.xcconfig */;
+			baseConfigurationReference = 01C108E2D5FF7DB2AB35B2BB /* Pods-VDMChat-VDMChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = VDMChatUITests/Info.plist;

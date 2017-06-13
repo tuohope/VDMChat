@@ -33,7 +33,7 @@ class ChatBoardViewController: UIViewController, UITableViewDelegate, UITableVie
         msgTable.rowHeight = UITableViewAutomaticDimension
 
         
-        let rootRef = Database.database().reference(withPath: "messages");
+        let rootRef = Database.database().reference(withPath: AppManager.REF_ROOT_STRING);
 
         rootRef.observe(DataEventType.value, with: {snapshot in
             guard let snapshotValue = snapshot.value as? [String: AnyObject] else{
@@ -55,7 +55,6 @@ class ChatBoardViewController: UIViewController, UITableViewDelegate, UITableVie
             self.msgTable.reloadData();
             self.msgTable.scrollToBottom();
         })
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -75,21 +74,22 @@ class ChatBoardViewController: UIViewController, UITableViewDelegate, UITableVie
             print("input is empty");
             return;
         }
-        print(msg);
+        
+        //reset input frame
         msgInputView.text = "";
         textViewDidChange(self.msgInputView);
         
-        let rootRef = Database.database().reference(withPath: "messages");
-
+        //prepare data and save to database
+        let rootRef = Database.database().reference(withPath: AppManager.REF_ROOT_STRING);
         let msgRef = rootRef.childByAutoId()
-        
         guard let nickname = AppManager.sharedInstance.nickname, !nickname.isEmpty else {
             let value = ["message":msg,"time":Date().timeIntervalSince1970,"nickname":"Anonymous"] as Any;
             msgRef.setValue(value);
             return;
         }
-        
-        let value = ["message":msg,"time":Date().timeIntervalSince1970,"nickname":nickname] as Any;
+        let value = ["message":msg,
+                     "time":Date().timeIntervalSince1970,
+                     "nickname":nickname] as Any;
         msgRef.setValue(value);
     }
     
@@ -110,8 +110,15 @@ class ChatBoardViewController: UIViewController, UITableViewDelegate, UITableVie
         return cell;
     }
     
+    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        //hide keyboard when user scrolls the table
+        if scrollView.isEqual(self.msgTable) {
+            msgInputView.resignFirstResponder();
+        }
+    }
     
     func textViewDidChange(_ textView: UITextView) {
+        //calculate # of lines
         let layoutManager:NSLayoutManager = msgInputView.layoutManager
         let numberOfGlyphs = layoutManager.numberOfGlyphs
         var numberOfLines = 0
@@ -123,7 +130,9 @@ class ChatBoardViewController: UIViewController, UITableViewDelegate, UITableVie
             index = NSMaxRange(lineRange);
             numberOfLines = numberOfLines + 1
         }
-
+        
+        
+        //resize input frame
         if (numberOfLines <= 1){
             inputViewHeight.constant = 30;
         }else if (numberOfLines >= 8){
@@ -134,6 +143,8 @@ class ChatBoardViewController: UIViewController, UITableViewDelegate, UITableVie
         var frame = textView.frame;
         frame.size.height = self.inputViewHeight.constant;
         textView.frame = frame;
+        
+        //fix scroll offset
         self.msgInputView.contentOffset = CGPoint.init(x: 0, y: textView.contentSize.height - textView.bounds.size.height)
     }
     
@@ -145,7 +156,6 @@ class ChatBoardViewController: UIViewController, UITableViewDelegate, UITableVie
                 self.inputViewSpaceToBtm.constant = keyboardSize.height;
                 self.view.layoutIfNeeded()
             },completion: nil)
-
         }
     }
     

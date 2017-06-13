@@ -17,6 +17,7 @@ class NicknameViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
 
         nickNameInput.delegate = self;
+        
         guard let name = AppManager.sharedInstance.nickname, !name.isEmpty else {
             infoLabel.text = "You don't have nickname yet!"
             return;
@@ -28,11 +29,14 @@ class NicknameViewController: UIViewController, UITextFieldDelegate {
     
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        //Hide keyboard when return pressed
         textField.resignFirstResponder()
         return true
     }
     
+    
     func textFieldDidEndEditing(_ textField: UITextField) {
+        //save nickname
         guard let name = textField.text else {
             return;
         }

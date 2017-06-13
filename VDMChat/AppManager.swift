@@ -11,5 +11,6 @@ import Foundation
 
 class AppManager{
     static let sharedInstance: AppManager = AppManager();
+    static let REF_ROOT_STRING = "messages"
     var nickname:String?
 }
