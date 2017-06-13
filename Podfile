@@ -5,7 +5,11 @@ target 'VDMChat' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   # use pod 'Firebase/Core' https://firebase.google.com/
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
 
+
+  
   # Pods for VDMChat
 
   target 'VDMChatTests' do
